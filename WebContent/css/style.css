@@ -1,0 +1,70 @@
+@charset "EUC-KR";
+
+      .title{display:inline;}
+      .searchkeyword{ width:400px;height:auto;}
+	  .title:hover{text-decoration:none;color: #000000;}
+	  
+	  .login:hover{text-decoration:none;color: #000000;}
+	  
+	  
+	  input[type=text]:focus {border: 3px solid #555;}
+	  
+	  .headstyle{width: 100%;height: 90px;display: flex; align-content: center;justify-content: space-between;border-bottom: 3px solid #000000;padding-bottom: 30px;padding-top: 30px;}
+	  
+	  .headstyle a{text-decoration:none;color: black;}
+	  
+	  .navmenu{
+		    display: flex;
+			height:40px; 
+			width: 100%;
+			border-bottom:3px solid #000000;
+			background-color:#000000;
+			padding:0;
+	  }
+	  
+	  .navmenu ul{
+			padding-bottom:40px;
+		    border-bottom:3px solid #000000;
+			background-color:#000000;
+			border-bottom:0;
+			margin:0;
+	  }
+	  
+	  .navmenu ul li{
+			list-style: none;
+			color:white;
+			background-color:#000000;
+			float:left;
+			line-height:40px;
+			vertical-align:middle;
+			text-align:center;
+	  
+	  }
+	  
+	  
+	  .navmenu .navlink{
+			text-decoration:none;
+			color: white;
+			display: block;
+			width:100px;
+			font-size:12px;
+	  }
+	  .navmenu .navlink:hover{background-color:gray;}
+	  
+	  .preparealert p {padding:50%;}
+	  
+	  .addr a{ float:center;margin-right:5px;color:black;text-decoration:none;}
+	  .addr a::after{content:'|';color:gray;padding-left:5px;}
+	  .addr a:last-child::after{content:""}
+	  .addr{text-align: center;border-top: 1px solid gray;padding-top:5px; margin-top:10px;}
+	  
+	  .banner {position:relative ; width:351px;height:124px;margin:0px;padding:0px;overflow: hidden}
+	  .banner ul {position: absolute; margin:0px;padding:0;list-style:none;}
+	  .banner ul li {float:center; width:350px;height:125px;margin:0;padding:0;}
+	
+	  @media(max-width:160px) {
+	  	.headstyle div {
+			display:none;
+		}
+	
+	   }
